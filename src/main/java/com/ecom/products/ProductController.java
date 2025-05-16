@@ -11,11 +11,12 @@ import java.util.List;
 @RequestMapping("/api/product")
 public class ProductController {
 
-    private ProductService productService;
     @Autowired
-    ProductController(ProductService productService){
-        this.productService=productService;
-    }
+    private ProductService productService;
+    //@Autowired
+    //ProductController(ProductService productService){
+       // this.productService=productService;
+    //}
 
     @PostMapping("/save")
     public ResponseEntity<String> createProduct(@RequestBody ProductDTO dto) {

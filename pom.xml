@@ -13,12 +13,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>products</name>
 	<description>Demo project for Spring Boot</description>
-	<repositories>
-		<repository>
-			<id>github</id>
-			<url>https://maven.pkg.github.com/PaaruMS/ecom_common_config</url>
-		</repository>
-	</repositories>
+<!--	<repositories>-->
+<!--		<repository>-->
+<!--			<id>github</id>-->
+<!--			<url>https://maven.pkg.github.com/PaaruMS/ecom_common_config</url>-->
+<!--		</repository>-->
+<!--	</repositories>-->
 	<url/>
 	<licenses>
 		<license/>
